@@ -1,3 +1,16 @@
 services:
   base:
+    &base
     build: .
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules/
+
+  app:
+    <<: *base
+    command: ['yarn', 'dev']
+    ports:
+      - 3000:3000
+      - 24678:24678
