@@ -1,6 +1,5 @@
 services:
-  base:
-    &base
+  base: &base
     build: .
     stdin_open: true
     tty: true
