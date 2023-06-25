@@ -6,7 +6,12 @@ import Components from 'unplugin-vue-components/vite'
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: ['@nuxtjs/tailwindcss'],
+  lodash: {
+    prefix: '_',
+    upperAfterPrefix: false,
+  },
+
+  modules: ['nuxt-lodash', '@nuxtjs/tailwindcss'],
 
   ssr: false,
 

@@ -48,7 +48,7 @@
         <v-text-field placeholder="Email" type="email">
           <template #lead> <i-ic-outline-mail /> </template>
         </v-text-field>
-        <v-text-field class="rounded-full" placeholder="Search">
+        <v-text-field placeholder="Search" rounded>
           <template #lead> <i-ic-search /> </template>
           <template #trail> <i-ic-outline-cancel /> </template>
         </v-text-field>
