@@ -1,4 +1,4 @@
-.PHONY: help run start stop shell _app _base
+.PHONY: help run start stop shell build _app _base
 
 default: help
 
@@ -18,6 +18,9 @@ stop: ## stop the application
 
 shell: _base ## shell into a development container
 	@docker compose run base sh
+
+build: _base ## build the application for deployment
+	@docker compose run base yarn generate
 
 # private
 
