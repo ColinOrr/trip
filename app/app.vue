@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <Head>
-      <title>Trip &middot; Colin the Geek</title>
-    </Head>
+  <Head>
+    <title>Trip &middot; Colin the Geek</title>
+  </Head>
+  <Body class="h-full">
     <NuxtPage />
-  </div>
+  </Body>
 </template>

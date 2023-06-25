@@ -1,5 +1,5 @@
 <template>
-  <div class="v-sheet border-solid border rounded shadow">
+  <div class="v-sheet rounded-lg ring-1 ring-slate-900/10">
     <slot />
   </div>
 </template>
