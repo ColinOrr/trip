@@ -7,6 +7,8 @@
         &middot;
         <a href="#v-container"> v-container </a>
         &middot;
+        <a href="#v-map"> v-map </a>
+        &middot;
         <a href="#v-sheet"> v-sheet </a>
         &middot;
         <a href="#v-text-field"> v-text-field </a>
@@ -33,6 +35,14 @@
           I'm contained to the <strong>xs</strong> breakpoint 🤗
         </v-container>
       </v-sheet>
+    </section>
+
+    <section>
+      <a class="anchor" id="v-map" />
+      <h2>v-map</h2>
+      <div class="mt-2 h-80">
+        <v-map />
+      </div>
     </section>
 
     <section>

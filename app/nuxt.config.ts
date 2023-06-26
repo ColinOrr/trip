@@ -13,6 +13,12 @@ export default defineNuxtConfig({
 
   modules: ['nuxt-lodash', '@nuxtjs/tailwindcss'],
 
+  runtimeConfig: {
+    public: {
+      googleMapsApiKey: 'AIzaSyCEdR6XdTgIHairK1kLydYGZg5ZVcp4pxE',
+    },
+  },
+
   ssr: false,
 
   vite: {
