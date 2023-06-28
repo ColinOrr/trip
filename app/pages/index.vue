@@ -1,3 +1,9 @@
 <template>
-  <h1>Home</h1>
+  <v-text-field
+    placeholder="Where to?"
+    rounded
+    @focus="navigateTo({ name: 'search' })"
+  >
+    <template #lead> <i-ic-search /> </template>
+  </v-text-field>
 </template>

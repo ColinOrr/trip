@@ -40,9 +40,7 @@
     <section>
       <a class="anchor" id="v-map" />
       <h2>v-map</h2>
-      <div class="mt-2 h-80">
-        <v-map />
-      </div>
+      <v-map class="mt-2 h-80" />
     </section>
 
     <section>
@@ -66,6 +64,10 @@
     </section>
   </v-container>
 </template>
+
+<script setup>
+definePageMeta({ layout: 'full-screen' })
+</script>
 
 <style scoped>
 a {

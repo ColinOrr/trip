@@ -1,9 +1,5 @@
 <template>
-  <google-map
-    v-bind="$props"
-    :api-key="$config.public.googleMapsApiKey"
-    class="h-full w-full"
-  />
+  <google-map v-bind="$props" :api-key="$config.public.googleMapsApiKey" />
 </template>
 
 <script setup>
